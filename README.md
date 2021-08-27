@@ -11,3 +11,11 @@ npm i magnosaurus
 ```javascript
 npm test
 ```
+
+### Features
+
+##### Api
+- Find
+```javascript
+ModelName.find(<query>,<projection>).skip(<skip>).limit(<limit>).sort(<sort>).toArray()
+```

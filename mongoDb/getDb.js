@@ -16,6 +16,7 @@ getDb.prototype.getDb = async function() {
 			db = client.db();
 
 		} catch(err) {
+			console.error(err);
 			await client.close();
 			process.exit(0);
 		}

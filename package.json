@@ -16,5 +16,11 @@
     "light"
   ],
   "author": "utkarsh85",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.6.2",
+    "ajv-formats": "^2.1.1",
+    "ajv-keywords": "^5.0.0",
+    "mongodb": "^4.1.1"
+  }
 }
